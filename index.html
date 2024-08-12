@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Star Clusters</title>
+</head>
+<body>
+    <div id="searchContainer">
+        <input type="text" id="searchInput" placeholder="Suche nach Cluster..." />
+        <ul id="suggestions"></ul>
+        <div id="clusterListContainer">
+            <h3>Cluster Liste</h3>
+            <ul id="clusterList"></ul>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div id="sidebar">
+        <button id="closeBtn">Schließen</button>
+        <h2>Cluster Details</h2>
+        <ul id="pointList">
+            <!-- Dynamisch generierte Liste der Punkte wird hier eingefügt -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

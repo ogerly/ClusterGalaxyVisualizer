@@ -1,9 +1,11 @@
+# ClusterGalaxyVisualizer
  
-# CelestialClusters
 
-## Overview
-CelestialClusters is a visually immersive tool that brings data clusters to life within a celestial-themed environment. Utilizing HTML5 Canvas and JavaScript, this tool offers interactive exploration of data clusters set against star-studded backdrops.
+### Beschreibung:
+**ClusterGalaxyVisualizer** ist eine interaktive Visualisierungsanwendung, die es ermöglicht, Cluster von Sternen auf einer Karte darzustellen. Die Anwendung bietet eine benutzerfreundliche Oberfläche mit einer Suchleiste und einer interaktiven Cluster-Liste, die es Benutzern ermöglicht, spezifische Cluster einfach zu finden und zu ihnen zu zoomen.
 
+### Prototyp:
+Ein funktionierender Prototyp der Anwendung zeigt die grundlegenden Funktionen wie das Anzeigen von Clustern, das Zoomen auf spezifische Cluster und die Anzeige von Cluster- und Punktdetails in einer Sidebar.
 
 
 https://github.com/user-attachments/assets/865c22ba-5d93-466c-a862-794beaa32f12
@@ -11,36 +13,41 @@ https://github.com/user-attachments/assets/865c22ba-5d93-466c-a862-794beaa32f12
 ![Bildschirmfoto vom 2024-08-12 10-13-06](https://github.com/user-attachments/assets/d8476395-689c-4a38-813c-aa5451c60496)
 ![Bildschirmfoto vom 2024-08-12 10-13-10](https://github.com/user-attachments/assets/f779cb9c-3852-423a-89e0-0533dfed88fc)
 
+### Funktionsumfang:
+1. **Interaktive Cluster-Visualisierung**:
+   - Darstellung von 200 Clustern mit zufällig generierten Sternenpunkten.
+   - Jeder Cluster hat eine eigene, unveränderliche Form, die beim Zoomen und Bewegen der Karte stabil bleibt.
 
+2. **Suchfunktion**:
+   - Eine Suchleiste ermöglicht es Benutzern, nach spezifischen Clustern zu suchen.
+   - Autovervollständigung zeigt passende Cluster während der Eingabe an.
 
-## Features
-- **Celestial Backdrops**: Data clusters are overlaid on celestial star patterns.
-- **Interactive Clusters**: Zoom, pan, and click to delve into cluster details.
-- **Flexible Canvas**: The canvas adjusts to fit various screen sizes for optimal viewing.
+3. **Interaktive Cluster-Liste**:
+   - Eine Liste der verfügbaren Cluster wird auf der linken Seite angezeigt.
+   - Durch Klicken auf einen Listeneintrag wird zum entsprechenden Cluster gezoomt.
 
-## Demo
-Check out a live demo of the project on CodePen:
-[CelestialClusters Demo](https://codepen.io/yourcodepenlink)
+4. **Zoom- und Pan-Funktion**:
+   - Benutzer können in die Karte hinein- und herauszoomen sowie die Karte verschieben, um verschiedene Bereiche der Cluster-Visualisierung zu erkunden.
 
-## Installation
-To run this project locally, clone the repository and open the `index.html` file in your browser.
+5. **Sidebar mit Cluster-Details**:
+   - Beim Klicken auf einen Punkt oder Cluster werden detaillierte Informationen in einer Sidebar angezeigt.
+   - Die Sidebar zeigt entweder Informationen zu einem spezifischen Punkt oder zu allen aktiven Punkten eines Clusters.
 
-```bash
-git clone https://github.com/yourusername/CelestialClusters.git
-cd CelestialClusters
+6. **Responsive Canvas**:
+   - Das Canvas passt sich automatisch an die Fenstergröße an und skaliert die Clusterdarstellung entsprechend.
 
+### Repository-Struktur:
+- **index.html**: Die Haupt-HTML-Datei, die die Struktur der Seite definiert.
+- **styles.css**: Die CSS-Datei, die das Layout und das Design der Anwendung steuert.
+- **script.js**: Die JavaScript-Datei, die die Logik für die Cluster-Visualisierung, die Suche und die Interaktion mit der Benutzeroberfläche enthält.
 
-```
-Then, open index.html in your preferred web browser.
+### Anleitungen zur Installation:
+1. Klonen Sie das Repository: `git clone https://github.com/[YourUsername]/ClusterGalaxyVisualizer.git`
+2. Öffnen Sie die `index.html`-Datei in einem Webbrowser.
 
-## Usage
-- Zoom: Use the mouse wheel to zoom in and out.
-- Pan: Click and drag to move around the canvas.
-- Click: Click on a data point to see more information about the user it represents.
+### Live-Demo:
+https://codepen.io/ogerly/pen/MWMEZNd
 
-
-## License
-This project is licensed under the MIT License.
 
 
 
